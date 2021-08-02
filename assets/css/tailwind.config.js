@@ -23,7 +23,9 @@ module.exports = {
         'eodd-pink':    '#db408c',
         'eodd-blue':    '#222b68',
         'eodd-orange':  '#f16a37',
-        'eodd-cream':   '#fef7da'
+        'eodd-cream':   '#fef7da',
+        'prewired-cream': '#e8d5b7',
+        'prewired-cream-light': '#fef4e6'
       },
       typography: (theme) => ({
         dark: {

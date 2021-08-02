@@ -18,6 +18,13 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        'eodd-green':   '#81ccb5',
+        'eodd-pink':    '#db408c',
+        'eodd-blue':    '#222b68',
+        'eodd-orange':  '#f16a37',
+        'eodd-cream':   '#fef7da'
+      },
       typography: (theme) => ({
         dark: {
           css: [

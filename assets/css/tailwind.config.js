@@ -25,7 +25,8 @@ module.exports = {
         'eodd-orange':  '#f16a37',
         'eodd-cream':   '#fef7da',
         'prewired-cream': '#e8d5b7',
-        'prewired-cream-light': '#fef4e6'
+        'prewired-cream-light': '#fef4e6',
+        'prewired-orange': '#f9b248'
       },
       typography: (theme) => ({
         dark: {

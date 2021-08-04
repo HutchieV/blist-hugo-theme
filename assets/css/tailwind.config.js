@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       colors: {
         'eodd-green':   '#81ccb5',
+        'eodd-green-main':  '#659e8d',
         'eodd-pink':    '#db408c',
         'eodd-blue':    '#222b68',
         'eodd-orange':  '#f16a37',

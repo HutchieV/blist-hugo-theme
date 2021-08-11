@@ -1,8 +1,13 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900 intro-banner">
   <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-1 gap-4 lg:gap-16 items-center">
-    <div class="flex items-center flex-col">
-      <h1 class="text-4xl text-center font-bold mb-4 text-white text-shadow">{{ .Site.Params.homepage.title }}</h1>
-      <p class="font-light text-center text-lg text-white text-shadow">{{ .Site.Params.homepage.description }}</p>
+    <div class="intro-title flex items-center flex-col">
+      <h1 class="intro-title text-4xl text-center font-bold mb-4 text-eodd-cream text-shadow">
+        WELCOME TO 
+        <span class="intro-title text-eodd-blue">THE 
+          <span class="intro-title text-eodd-orange">EMPORIUM</span> 
+          OF</span> DIGITAL DELIGHTS!
+      </h1>
+      <p class="intro-title font-light text-center text-lg text-eodd-cream text-shadow">{{ .Site.Params.homepage.description }}</p>
     </div>
     <!-- <img class="rounded-lg" src="{{ .Site.Params.homepage.photo }}" alt="{{ .Site.Title }}" /> -->
   </div>
